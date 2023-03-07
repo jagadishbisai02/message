@@ -1,2 +1,2 @@
-const greetings = require("../message/index");
-module.exports = `Hello Rahul! ${greetings}`;
+const greetings = require("../greeting/index");
+console.log(`Hello Rahul! ${greetings}`);
